@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const ColumnsScreen(),
+      home: ColumnsScreen(),
       theme: ThemeData.dark(useMaterial3: true),
     );
   }
